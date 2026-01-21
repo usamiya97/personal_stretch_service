@@ -30,11 +30,11 @@
 ### 2. 顧客管理システム (Backend / Infra)
 * **Java (Spring Boot):** 堅牢な型安全性と、将来的な機能拡張を見据えた保守性を重視。
 * **AWS:** インフラ構築の学習および、スケーラビリティを考慮して選定。
-
+* **Supabase:** AWS RDSを想定していたが、コストの関係でDBはSupabaseで運用
 ---
 
 ## 📐 アーキテクチャ / 設計
-<img width="365" height="565" alt="スクリーンショット 0008-01-19 22 56 51" src="https://github.com/user-attachments/assets/1c84f044-6c41-48e5-b298-0453c859f46d" />
+<img width="505" height="601" alt="スクリーンショット 0008-01-21 22 59 45" src="https://github.com/user-attachments/assets/70fd94b7-4017-4bf3-84e4-edecc8f7f823" />
 
 
 ### データフロー
