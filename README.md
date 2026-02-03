@@ -17,7 +17,7 @@
 | サービス名 | 役割 | リポジトリURL | 技術スタック |
 | --- | --- | --- | --- |
 | **集客用LP** | 一般ユーザー向けWebサイト<br>トレーナー紹介、予約導線 | [🔗 GitHub Link](https://github.com/usatai/personal_stretch) | TypeScript, Next.js, Vercel, TailwindCSS |
-| **顧客管理システム** | トレーナー専用管理画面<br>顧客情報、予約状況の管理 | [🔗 GitHub Link（フロントエンド）](https://github.com/usatai/personal_stretch_management_system)<br>[🔗 GitHub Link（バックエンド）](https://github.com/usatai/personal_stretch_backend) | TypeScript, Next.js, Java, Spring Boot, AWS (EC2/RDS) |
+| **顧客管理システム** | トレーナー専用管理画面<br>顧客情報、予約状況の管理 | [🔗 GitHub Link（フロントエンド）](https://github.com/usatai/personal_stretch_management_system)<br>[🔗 GitHub Link（バックエンド）](https://github.com/usatai/personal_stretch_backend) | TypeScript, Next.js, Java, Spring Boot, AWS (EC2), Supabase |
 
 ---
 
