@@ -24,13 +24,13 @@
 ## 🛠 技術選定の理由
 
 ### 1. 集客用LP (Frontend)
-* **Next.js (App Router):** SEO対策とページ表示速度のパフォーマンスを最大化するため採用。
+* **Next.js (App Router):** SEO対策とページ表示速度のパフォーマンスを最大化、Vercelへのデプロイパイプラインの容易さ、Reactのエコシステム（Tailwind CSS等）との親和性の観点から採用。
 * **Vercel:** デプロイの手軽さと、Next.jsとの親和性の高さから選定。
 
 ### 2. 顧客管理システム (Backend / Infra)
-* **Java (Spring Boot):** 堅牢な型安全性と、将来的な機能拡張を見据えた保守性を重視。
+* **Java (Spring Boot):** 自身のメインスキルであり、開発速度を最速化できるため選定。また、Spring Securityによる認証認可の実装コスト削減、JPAによるDB操作の効率化を評価。
 * **AWS:** インフラ構築の学習および、スケーラビリティを考慮して選定。
-* **Supabase:** AWS RDSを想定していたが、コストの関係でDBはSupabaseで運用
+* **Supabase:** 本番運用（スケーリング）を想定してAWS RDSでの構成もTerraformでコード化していますが、個人開発のコスト制約上、現在はSupabaseで稼働させています。
 ---
 
 ## 📐 アーキテクチャ / 設計
