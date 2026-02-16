@@ -34,7 +34,7 @@
 ---
 
 ## 📐 アーキテクチャ / 設計
-<img width="851" height="361" alt="スクリーンショット 0008-02-16 20 11 10" src="https://github.com/user-attachments/assets/bf688c6c-4f5b-4b78-a8f0-252468e3ab5c" />
+<img width="910" height="340" alt="スクリーンショット 0008-02-16 20 48 23" src="https://github.com/user-attachments/assets/93542eab-f410-4dd2-8272-ddf9536a4e71" />
 
 ### データフロー
 1. ユーザーが **LP**もしくはトレーナーが**顧客管理システム（フロントエンド）** から問い合わせ/予約
