@@ -34,7 +34,7 @@
 ---
 
 ## 📐 アーキテクチャ / 設計(理想の構成)
-<img width="882" height="368" alt="スクリーンショット 0008-02-16 21 55 19" src="https://github.com/user-attachments/assets/d4fa4c5c-cee4-426d-8e43-5195bbd20a6a" />
+<img width="881" height="357" alt="スクリーンショット 0008-02-16 21 58 01" src="https://github.com/user-attachments/assets/4a6c0327-c632-481f-b0a1-320bb7baacbf" />
 
 ## 📐 アーキテクチャ / 設計(現実の構成)
 <img width="910" height="340" alt="スクリーンショット 0008-02-16 20 48 23" src="https://github.com/user-attachments/assets/93542eab-f410-4dd2-8272-ddf9536a4e71" />
