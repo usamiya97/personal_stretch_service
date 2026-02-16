@@ -34,7 +34,8 @@
 ---
 
 ## 📐 アーキテクチャ / 設計
-<img width="440" height="532" alt="スクリーンショット 0008-01-22 19 13 04" src="https://github.com/user-attachments/assets/07b6ef37-181d-4556-8ec1-309b3fc0a772" />
+<img width="944" height="398" alt="スクリーンショット 0008-02-16 20 10 35" src="https://github.com/user-attachments/assets/1c2eb188-405c-4431-9fa8-f1903cd699c8" />
+
 
 
 ### データフロー
