@@ -35,9 +35,13 @@
 
 ## 📐 アーキテクチャ / 設計(理想の構成)
 <img width="881" height="357" alt="スクリーンショット 0008-02-16 21 58 01" src="https://github.com/user-attachments/assets/4a6c0327-c632-481f-b0a1-320bb7baacbf" />
+中身: ALB + NAT Gateway + Private ECS
+README: 「本来あるべき商用環境の構成です。可用性とセキュリティを最大化しています。」
 
 ## 📐 アーキテクチャ / 設計(現実の構成)
 <img width="910" height="340" alt="スクリーンショット 0008-02-16 20 48 23" src="https://github.com/user-attachments/assets/93542eab-f410-4dd2-8272-ddf9536a4e71" />
+中身: API Gateway + Lambda + Public ECS (プランA)
+README: 「個人開発の予算制約（月額0円目標）に合わせて、あえてアンチパターンを採用し、Lambdaプロキシによる独自ルーティングを実装しました。」
 
 ### データフロー
 1. ユーザーが **LP**もしくはトレーナーが**顧客管理システム（フロントエンド）** から問い合わせ/予約
