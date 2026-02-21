@@ -46,53 +46,8 @@
 * コスト最適化アーキテクチャ（予算制約下でのトレードオフ）：ランニングコストゼロという厳しい非機能要件を満たすため、API Gateway + Lambdaによるサーバーレスプロキシ構成を意図的に採用した
 
 ## データモデリング（ER図）
-erDiagram
-    customers {
-        bigint id PK
-        varchar(50) customer_name
-        varchar(255) customer_email
-        varchar(20) customer_phone_number
-        timestamp created_at
-        varchar(255) customer_memo
-    }
+<img width="563" height="729" alt="スクリーンショット 0008-02-21 21 59 28" src="https://github.com/user-attachments/assets/e55dcbfb-e1db-457a-a97b-1a992bd53ec0" />
 
-    bookings {
-        bigint id PK
-        bigint customer_id FK
-        varchar(20) status
-        varchar(500) message
-        timestamp first_choice_datetime
-        timestamp second_choice_datetime
-        timestamp created_at
-        integer choise_stretch
-    }
-
-    notifications {
-        bigint id PK
-        bigint booking_id FK
-        varchar(20) notification_type
-        boolean is_read
-        timestamp booking_date
-        timestamp created_at
-    }
-
-    roles {
-        integer id PK
-        varchar(50) role_name
-    }
-
-    trainers {
-        bigint id PK
-        varchar(50) admin_name
-        varchar(255) admin_password
-        integer role_id FK
-        timestamp created_at
-    }
-
-    %% リレーションシップ
-    customers ||--o{ bookings : "has (1:N)"
-    bookings ||--o{ notifications : "triggers (1:N)"
-    roles ||--o{ trainers : "assigned_to (1:N)"
 
 ## 運用・保守・セキュリティ
 テストテストテストテストテストテストテストテストテストテストテストテストテストテスト
