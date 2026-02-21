@@ -46,7 +46,7 @@
 * コスト最適化アーキテクチャ（予算制約下でのトレードオフ）：ランニングコストゼロという厳しい非機能要件を満たすため、API Gateway + Lambdaによるサーバーレスプロキシ構成を意図的に採用した
 
 ## データモデリング（ER図）
-<img width="563" height="729" alt="スクリーンショット 0008-02-21 21 59 28" src="https://github.com/user-attachments/assets/e55dcbfb-e1db-457a-a97b-1a992bd53ec0" />
+<img width="516" height="690" alt="スクリーンショット 0008-02-21 22 05 13" src="https://github.com/user-attachments/assets/159e3329-0420-4d1c-af83-e907547c6bf4" />
 
 
 ## 運用・保守・セキュリティ
